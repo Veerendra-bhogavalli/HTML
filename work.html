@@ -1,49 +1,65 @@
 <!DOCTYPE html>
 <html>
-  <head>
-   <style>
-table, th, td 
-{
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-</style>
-  </head>
-  <body>
-   <table border="1" width="450" height="150">
-     <tr>
-       <th rowspan="2">S.NO</th>
-       <th rowspan="2">STUDENT NAME</th>
-       <th colspan="2">FEES</th>
-     </tr>
-     <tr>
-       <th>TUTION FEES</th>
-       <th>TRANSPORT FEES</th>
-     </tr>
-     <tr>
-       <td>1.</td>
-       <td>Mahesh</td>
-       <td>45,000</td>
-       <td>26,500</td>
-     </tr>
-     <tr>
-       <td>2.</td>
-       <td>Veerendra</td>
-       <td>45,000</td>
-       <td>23,500</td>
-     </tr>
-     <tr>
-       <td>3.</td>
-       <td>Varun</td>
-       <td>45,000</td>
-       <td>20,000</td>
-     </tr>
-     <tr>
-       <td>4.</td>
-       <td>Pavan</td>
-       <td>45,000</td>
-       <td>21,500</td>
-     </tr>
-</table>
-  </body>
+    <head>
+        <title>Sudent Fee Details</title>
+        <style>
+            table,th,td
+            {
+                border: 2px solid black;
+                border-collapse: collapse;
+            }
+            th,td
+            {
+                padding: 5px;
+            }
+            colgroup
+            {
+                width: 300px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Student Fee Details</h1>
+        <table border="1" width="500" height="150">
+            <colgroup>
+                <col>
+                <col style="width:300px">
+                <col style="width:300px">
+                <col>
+            </colgroup>
+            <tr>
+                <th rowspan="2">S.no</th>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Fee</th>
+            </tr>
+            <tr>
+                <th>Transport</th>
+                <th>Tution</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <th>Mahesh</th>
+                <th>22,500</th>
+                <th>45,000</th>
+            </tr>
+            <tr>
+                <th>2</th>
+                <th>Veerendra</th>
+                <th>22,500</th>
+                <th>1,37,000</th>
+            </tr>
+            <tr>
+                <th>3</th>
+                <th>Varun</th>
+                <th>23,000</th>
+                <th>45,000</th>
+            </tr>
+            <tr>
+                <th>4</th>
+                <th>Pavan</th>
+                <th>24,000</th>
+                <th>1,37,000</th>
+            </tr>
+        </table>
+    </body>
 </html>
